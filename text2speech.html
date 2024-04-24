@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXT TO SPEECH</title>
+    <link rel="stylesheet" href="text2speech.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navleft">
+            <img src="images/menu.png" alt="" class="menu-icon" id="menuIcon">
+        </div>
+        <div class="navmid">
+            <a href="index.html"><h1>VOICIFY</h1></a>
+        </div>
+        <div class="navright">
+            <input type="checkbox" id="darkmode-toggle"/>
+            <label for="darkmode-toggle">
+            <img src="images/sun.svg" class="sun"> 
+            <img src="images/moon.svg" class="moon">
+            </label>
+        </div> 
+    </nav>
+
+    
+
+    <section>
+    
+        <h1>TEXT TO SPEECH CONVERTER</h1>
+        <div class="contain">
+           <div class="texts1">
+            <p>Try Text to Speech conversion with Voicify.......</p>
+            <textarea class="txt-area"></textarea>
+           <div class="align-btns">
+           <button id="startButton"  type="submit" class="btn-x">SPEAK!</button>
+            </div>
+            <div>
+            <select name="SPEED" id="speed">
+                <option value="1">SPEED</option>
+            </select>
+           <select name="" id="voicesxxx">   </select>
+           <select name="PITCH" id="pitch">
+                <option value="1">HIGH/LOW</option>
+            </select>
+           </div>
+        </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="overlay" id="overlay"></div>
+
+
+
+     <div class="sidebar1" id="sidebar1">
+       <div class="shortcut-links">
+        <a href="index.html"><img src="images/home.png" alt=""><p>HOME</p></a>
+        <hr class="line">
+        <a href="speech2text.html"><img src="images/voice.png" alt=""><p>SPEECH 2 TEXT</p></a>
+        <hr class="line">
+        <a href="text2speech.html"><img src="images/text.png" alt=""><p>TEXT 2 SPEECH</p></a>
+        <hr class="line">
+        <a href="help.html"><img src="images/help.png" alt=""><p>HELP</p></a>
+        <hr class="line">
+        <a href="about.html"><img src="images/about.png" alt=""><p>ABOUT</p></a>
+        <hr class="line">
+       </div>
+ 
+       
+    </div>
+ 
+ 
+    <footer>
+        <p>
+            Copyright &copy; Voicify, Inc. All Rights Reserved.
+        </p>
+    </footer>
+    <script src="voicify1.js"></script>
+
+
+
+
+
+
+</body>
+</html>
